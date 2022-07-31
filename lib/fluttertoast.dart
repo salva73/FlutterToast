@@ -191,7 +191,7 @@ class FToast {
   void showToast({
     required Widget child,
     PositionedToastBuilder? positionedToastBuilder,
-    Duration toastDuration = const Duration(seconds: 2),
+    Duration toastDuration = const Duration(seconds: 5),
     ToastGravity? gravity,
     Duration fadeDuration = const Duration(milliseconds: 350),
   }) {
